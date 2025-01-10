@@ -1,0 +1,16 @@
+# Sensitive info
+terraform.tfvars
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+
+# Terraform Lock 
+.terraform.lock.hcl
+
+# .terraform Folder
+.terraform/
+
+# System files
+.DS_Store
+Thumbs.db
