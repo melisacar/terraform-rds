@@ -45,8 +45,8 @@ This repository contains Terraform configurations to deploy an AWS RDS PostgreSQ
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/melisacar/terraform-rds.git
+cd terraform-rds
 ```
 
 ### 2. Configure Variables
