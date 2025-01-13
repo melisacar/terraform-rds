@@ -85,8 +85,6 @@ terraform apply
 terraform destroy
 ```
 
---
-
 ## 🛠️ Customization
 
 You can customize the configuration by modifying the following variables in `variables.tf` or `terraform.tfvars`:
@@ -95,14 +93,10 @@ You can customize the configuration by modifying the following variables in `var
 - `db_allocated_storage`: Specify the storage size in GB (default: `20`).
 - `aws_region`: Specify the AWS region (default: `eu-north-1`).
 
---
-
 ## 🔒 Security Notes
 
 - Ensure sensitive information, such as `aws_access_key` and `aws_secret_key`, is excluded from the repository by adding them to `.gitignore` or using a secrets management tool.
 - Consider restricting the IP range in the security group (`cidr_blocks`) to trusted IPs only.
-
---
 
 ## 📝 License
 
